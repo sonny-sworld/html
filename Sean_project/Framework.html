@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+	<title>Framework</title>
+	<script type="text/javascript">
+		function show01(param){
+			document.getElementById("iframe_auto").src=param;
+		}
+	</script>
+<style>
+	p:hover{
+		color: red;
+	}
+p:hover, h1:hover, a:hover {
+  background-color: yellow;
+}
+</style>
+</head>
+<body style="background-color: grey; margin:0;height: 100%">
+
+<div id="title" style="; background-color: #FDD27D; height: 5%"> Main title</div>
+
+
+
+
+<div id="menu" style="background-color:#FFD700;height:92%; ;width:10%;float:left;">
+Menu: 
+
+<p style="margin:0;" style="hover{color: red}" onclick="show01('margin.html')">1.School life</p>
+<p style="margin:0" onclick="show01('homework_lesson_5.html')">2.Dialy life </p>  
+<p style="margin:0" onclick="show01('margin.html')">3.Family life</p>
+</div>
+
+<div id="content" style="background-color:#EEEEEE;height:92%;width:90%;float:left;">
+	<!-- <iframe src="margin.html" style="height: 100%" frameborder="0"></iframe> -->
+	<!-- <iframe src="homework_lesson_5.html" style="height: 100%" frameborder="0"></iframe> -->
+
+	<iframe src="" id="iframe_auto" style="height: 100%;width: 100%" frameborder="0"></iframe>
+</div>
+
+
+<div >123</div>
+
+
+
+
+
+
+
+</body>
+</html>
